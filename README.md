@@ -10,5 +10,5 @@ Hello, this is my personal portfolio website showcasing my skills, education bac
 - CSS
 
 
-### 📷 Screenshot:
-!(me.jpg)
+### 📷:
+![Screenshot](me.jpg)
