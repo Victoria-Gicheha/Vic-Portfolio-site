@@ -1,6 +1,7 @@
 # My Portfolio Website
 
-Hello, this is my personal portfolio website showcasing my skills, education background and projects.
+Hi, Welcome to my personal portfolio wedsite!
+I am Torrie Gicheha and this site showcases my background, skills, projects, and more.
 
 ### 🔗 Live Site:
 [Visit my portfolio:]((https://github.com/Victoria-Gicheha/Vic-Portfolio-site))(https://github.com/Victoria-Gicheha/Vic-Portfolio-site)
@@ -11,4 +12,4 @@ Hello, this is my personal portfolio website showcasing my skills, education bac
 
 
 ### 📷:
-![Screenshot](me.jpg)
+![Torrie](me.jpg)
