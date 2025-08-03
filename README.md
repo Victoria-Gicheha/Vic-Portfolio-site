@@ -11,4 +11,4 @@ This is my personal portfolio website showcasing my skills, projects, and backgr
 
 
 ### 📷 Screenshot:
-!(me.jpg)
+(me.jpg)
