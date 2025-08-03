@@ -1,24 +1,37 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Victoria Gicheha | Portfolio</title>
+    <title>Victoria Gicheha | Portfolio</title>
     <meta name="description" content="Portfolio of Victoria Gicheha, showcasing projects, skills, and background." />
     <meta name="keywords" content="Victoria Gicheha, web developer, portfolio, HTML, projects" />
     <meta name="author" content="Victoria Gicheha" />
     <link rel="stylesheet" href="style.css" />
-
+    <style>
+        .profile-pic {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
 </head>  
 <body>
 
     <!--Header section-->
     <header>
-        <img src="me.jpg" alt="Torrie Gicheha photo" style="width: 250px; border-radius: 10px;">
         <img src="me.jpg" alt="Torrie Gicheha photo" class="profile-pic">
         <div class="intro-text">
             <h1>Torrie Gicheha</h1>
-            <p> Tech Enthusiast  |  Code Explorer</p>
+            <p>Tech Enthusiast | Code Explorer</p>
         </div>
     </header>
 
@@ -27,53 +40,44 @@
         <!--About Section-->
         <section id="about">
             <h2>About Me:</h2>
-            <p>Hi! I am Torrie —
-                a self-driven tech learner,
-                creative builder, and an
-                aspiring developer. </p>
-            <p>I love figuring out how things work, 
-                writing code that makes things easier, 
-                and seeing my ideas come to life on screen. </p>
-            <p>Whether it is a small Python tool or a personal webpage, 
-                I find joy in creating and improving with every line of code.</p>
+            <p>Hi! I am Torrie — a self-driven tech learner, creative builder, and an aspiring developer.</p>
+            <p>I love figuring out how things work, writing code that makes things easier, and seeing my ideas come to life on screen.</p>
+            <p>Whether it is a small Python tool or a personal webpage, I find joy in creating and improving with every line of code.</p>
         </section>
 
         <!--Programming Languages-->
-        <section id="Languages">
+        <section id="languages">
             <h2>Programming Languages:</h2>
             <ul>
                 <li>Python</li>
                 <li>HTML</li>
-                
                 <li>CSS</li>
-                <Li>SQL</Li>
+                <li>SQL</li>
             </ul>
         </section>
 
         <!--Education-->
         <section id="education">
             <h2>Educational Background:</h2>
-            <p> BA Political Science and Public Administration: Maasai Mara University</p>
-            <P> Software Engineering: Power Learn Project Africa</P>
-            <p> Data Analysis: Ajira Digital Program</p>
-         </section>
+            <p>BA Political Science and Public Administration: Maasai Mara University</p>
+            <p>Software Engineering: Power Learn Project Africa</p>
+            <p>Data Analysis: Ajira Digital Program</p>
+        </section>
 
         <!--Interests-->
         <section id="interests">
             <h2>Interests:</h2>
-            <p>I'm especially interested in web development, tech for social impact, and AI. </p>
-            <p>I love learning how technology can help solve real-world problems. </p>
+            <p>I'm especially interested in web development, tech for social impact, and AI.</p>
+            <p>I love learning how technology can help solve real-world problems.</p>
         </section>
-
-
 
         <!--Projects-->
         <section id="projects">
             <h2>Projects:</h2>
             <ul>
                 <li>
-                    <strong>IntroCalc</strong> - A simple calculator for basic arithmetic operations, built as an introduction to Python.
-                    <a href="https://github.com/Victoria-Gicheha/IntroCalc" target="_blank">View on GitHub </a>
+                    <strong>IntroCalc</strong> – A simple calculator for basic arithmetic operations, built as an introduction to Python.  
+                    <a href="https://github.com/Victoria-Gicheha/IntroCalc" target="_blank">View on GitHub</a>
                 </li>
                 <li>
                     <strong>Database Design (Week 1)</strong> – HTML-based portfolio starter with proper semantic structure as part of PLP Database Design course.  
@@ -86,25 +90,21 @@
             </ul>
         </section>
 
-
-
         <!--Contact-->
-        <section id="contant">
-            <h2> Contact Me:</h2>
+        <section id="contact">
+            <h2>Contact Me:</h2>
             <form action="mailto:victoriagicheha005@gmail.com" method="post" enctype="text/plain">
-                <label for="name"> Name:</label><br />
+                <label for="name">Name:</label><br />
                 <input type="text" id="name" name="name" required /><br /><br />
 
                 <label for="email">Email:</label><br />
                 <input type="email" id="email" name="email" required /><br /><br />
 
-
-                <label for="message"> Message:</label><br />
+                <label for="message">Message:</label><br />
                 <textarea id="message" name="message" rows="4" required></textarea><br /><br />
 
-
                 <button type="submit">Send</button>
-             </form>
+            </form>
         </section>
 
     </main>
@@ -113,8 +113,5 @@
         <p>&copy; 2025 Torrie Gicheha. All rights reserved.</p>
     </footer>
 
-
 </body>  
-
 </html>
-
