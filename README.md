@@ -1,9 +1,9 @@
 # My Portfolio Website
 
-This is my personal portfolio website showcasing my skills, projects, and background.
+Hello, this is my personal portfolio website showcasing my skills, education background and projects.
 
 ### 🔗 Live Site:
-[Visit my portfolio]((https://github.com/Victoria-Gicheha/Vic-Portfolio-site))(https://github.com/Victoria-Gicheha/Vic-Portfolio-site)
+[Visit my portfolio:]((https://github.com/Victoria-Gicheha/Vic-Portfolio-site))(https://github.com/Victoria-Gicheha/Vic-Portfolio-site)
 
 ### 🧰 Built With:
 - HTML
@@ -11,4 +11,4 @@ This is my personal portfolio website showcasing my skills, projects, and backgr
 
 
 ### 📷 Screenshot:
-(me.jpg)
+!(me.jpg)
