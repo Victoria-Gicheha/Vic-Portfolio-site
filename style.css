@@ -30,20 +30,6 @@ header p {
   color: #f5f2d5;
 }
 .profile-pic {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 10px;
-}
-.profile-pic {
-  width: 250px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  display: block;
-  margin: 20px auto;
-}
-.profile-pic {
   width: 200px;
   height: 200px;
   object-fit: cover;
@@ -53,6 +39,8 @@ header p {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+
+
 .header-flex {
   display: flex;
   align-items: center;
@@ -61,12 +49,7 @@ header p {
   margin-bottom: 30px;
 }
 
-.profile-pic {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-}
+
 
 .intro-text h1 {
   margin-bottom: 5px;
@@ -171,14 +154,11 @@ footer {
 }
 
 @media (max-width: 600px) {
-  .header-flex {
-    flex-direction: column;
-    text-align: center;
-  }
-
   .profile-pic {
+    width: 150px;
+    height: 150px;
     margin-bottom: 10px;
   }
-
 }
+
 
